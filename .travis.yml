@@ -1,0 +1,17 @@
+# .travis.yml
+language: node_js
+addons:
+  apt:
+    packages:
+      - xvfb
+node_js:
+  - '5.4'
+  - '4.4'
+  - '6.2'
+notifications:
+  email: false
+script: npm run travis
+before_install:
+  - export DISPLAY=':99.0'
+  - Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+  - npm install -g vigour-test
