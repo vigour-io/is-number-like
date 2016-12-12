@@ -28,7 +28,7 @@ const testCases = [
   [Number.NaN, false],
   [Number.NEGATIVE_INFINITY, false],
   [Number.POSITIVE_INFINITY, false],
-  [function(arg1, arg2){}, false]
+  [function (arg1, arg2) {}, false]
 ]
 
 test('isNumberLike', function (t) {

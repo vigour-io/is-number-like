@@ -4,7 +4,7 @@
   "description": "Checks whether provided parameter looks like a number",
   "main": "lib/index.js",
   "scripts": {
-    "test": "NODE_ENV=test node test | tap-difflet && vtest test | tap-difflet && standard",
+    "test": "NODE_ENV=test node test | tap-difflet && standard",
     "cover": "istanbul cover --report none --print detail test/index.js",
     "view-cover": "istanbul report html && open ./coverage/index.html",
     "watch": "nodemon test | tap-difflet",
