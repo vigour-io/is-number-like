@@ -8,6 +8,7 @@ addons:
       - xvfb
 node_js:
   - '6.3'
+  - '0.12'
 notifications:
   email: false
 script: npm run travis
