@@ -1,6 +1,6 @@
 {
   "name": "is-number-like",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Checks whether provided parameter looks like a number",
   "main": "lib/index.js",
   "scripts": {
