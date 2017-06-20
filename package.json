@@ -30,8 +30,7 @@
     "Shawn Inder <shawn@vigour.io>"
   ],
   "dependencies": {
-    "lodash.isfinite": "^3.3.2",
-    "bubleify": "^0.5.1"
+    "lodash.isfinite": "^3.3.2"
   },
   "engines": {},
   "devDependencies": {
